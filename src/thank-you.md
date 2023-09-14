@@ -1,9 +1,7 @@
 ---
 title: Thank you!
-layout: layouts/slide.njk
+layout: slide
 ---
-
-# Thank you!
 
 - All credits for Boulder Dash go to [Peter Liepa](https://brainjam.ca) 💜
 - Slides: [https://github.com/learosema/boulders-slides](https://github.com/learosema/boulders-slides)

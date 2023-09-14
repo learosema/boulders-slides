@@ -1,6 +1,6 @@
 ---
-title: Lea's first Gamedev experiment
-layout: layouts/slide.njk
+title: Lea's first Gamedev talk
+layout: slide
 variant: slide--centered
 ---
 

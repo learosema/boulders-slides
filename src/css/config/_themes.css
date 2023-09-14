@@ -1,0 +1,32 @@
+
+/* Dark theme (default) */
+:root {
+  --bg: var(--grey--400);
+  --fg: var(--white);
+  --nav-bg: var(--ruby--200);
+  --nav-fg: var(--white);
+  --nav-bg--hover: var(--black);
+  --footer-bg: var(--cornflower--300);
+  --footer-fg: var(--white);
+
+  --button-bg--primary: transparent;
+  --button-fg--primary: var(--white);
+  --button-bg--primary-focus: var(--black);
+  --button-fg--primary-focus: var(--white);
+  --button-bg--primary-disabled: transparent;
+  --button-fg--primary-disabled: var(--grey--200);
+  --button-outline: 2px solid var(--white);
+
+  --underline-1: var(--ruby--200);
+  --underline-2: var(--cornflower--200);
+}
+
+html.theme--light {
+  --bg: var(--white);
+  --fg: var(--black);
+
+  --underline-1: var(--ruby--300);
+  --underline-2: var(--cornflower--300);
+  --button-fg--primary: var(--black);
+  --button-outline: 2px solid var(--black);
+}

@@ -1,18 +1,15 @@
 ---
 title: Agenda
-layout: layouts/slide.njk
+layout: slide
 ---
-
-# Agenda
-
 - the Game
 - the Stack
-- Caniuse WebGPU?
-- Loose Coupling
+- Can I use WebGPU?
 - IRenderer interface
-- Canvas2d for MVP
+- Loose Coupling
+- Use Canvas2D for a quick MVP
 - Adding a WebGL implementation
 - Moving to WebGPU
-- WebGL vs WebGPU
+- DEMO time
 - Learning resources
 - Thank You!

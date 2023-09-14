@@ -1,4 +1,4 @@
-{% extends "layouts/base.njk" %}
+{% extends "./base.njk" %}
 
 {% block content %}
 <main id="main-content" class="slide {{ variant }}" tabindex="-1">
@@ -6,7 +6,8 @@
     <img class="background {{ backgroundVariant }}" alt="{{ backgroundAlt }}"{% if not backgroundAlt %} role="none" aria-hidden="true"{% endif %} src="{{ background }}">
   {% endif %}
   <article class="slide__content | flow">
-  {{ content | safe }}
+    <h1>{{ title }}</h1>
+    {{ content | safe }}
   </article>
   {% if sideImage %}
     <img class="slide__side-image" src="{{ sideImage }}" alt="{{ sideImageAlt }}" width="{{ sideImageWidth }}">
@@ -69,7 +70,7 @@
       {% endif %}
     </li>
     <li>
-      <button id="tocButton" class="button" aria-expanded="false" aria-controls="tableOfContents" aria-haspopup="true">
+      <button id="tocButton" class="button" aria-expanded="false" aria-controls="tableOfContents">
         {{ tocIcon | safe }}
         <span class="visually-hidden">Table of contents</span>
       </button>

@@ -11,5 +11,4 @@ Thumbs.db
 
 # Compiled output and node_modules
 node_modules
-public
-src/_includes/css
+dist

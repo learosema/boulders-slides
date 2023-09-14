@@ -1,7 +1,11 @@
 ---
 title: The Stack
-layout: layouts/slide.njk
+layout: slide
+variant: slide--centered
 ---
 - Eleventy
+- esbuild
+- lightningcss
 - TypeScript
-- Web Components
+- VanillaJS Web Components
+- (some) jest for testing

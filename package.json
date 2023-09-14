@@ -1,23 +1,34 @@
 {
   "name": "boulders-slides",
   "version": "1.0.0",
-  "description": "Lea's Accessibility Talk",
+  "description": "Lea's First Gamedev Talk",
   "scripts": {
-    "dev": "eleventy --serve"
+    "dev": "eleventy --serve",
+    "build": "NODE_ENV=production eleventy"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/learosema/a11y-basics.git"
+    "url": "git+https://github.com/learosema/boulders-slides.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/learosema/a11y-basics/issues"
+    "url": "https://github.com/learosema/boulders-slides/issues"
   },
-  "homepage": "https://github.com/learosema/a11y-basics#readme",
+  "homepage": "https://github.com/learosema/boulders-slides#readme",
+  "browserslist": [
+    "last 2 version",
+    "not dead"
+  ],
   "devDependencies": {
-  },
-  "dependencies": {
+    "@11ty/eleventy": "^2.0.1",
+    "@11ty/eleventy-plugin-syntaxhighlight": "^5.0.0",
+    "browserslist": "^4.21.10",
+    "dayjs": "^1.11.9",
+    "esbuild": "^0.19.3",
+    "html-minifier-terser": "^7.2.0",
+    "lightningcss": "^1.21.8",
+    "slugify": "^1.6.6"
   }
 }

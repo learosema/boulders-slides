@@ -1,9 +1,13 @@
 ---
 title: The Game
-layout: layouts/slide.njk
+layout: slide
 variant: slide--centered
 ---
 
-## Boulder Dash Clone
+## Lea made sprites
 
-Original game by Peter Liepa
+![Sprites](/images/sprites.png)
+
+### for a Boulder Dash clone
+
+#### (Original game by Peter Liepa)
