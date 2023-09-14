@@ -1,0 +1,23 @@
+{
+  "name": "boulders-slides",
+  "version": "1.0.0",
+  "description": "Lea's Accessibility Talk",
+  "scripts": {
+    "dev": "eleventy --serve"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/learosema/a11y-basics.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/learosema/a11y-basics/issues"
+  },
+  "homepage": "https://github.com/learosema/a11y-basics#readme",
+  "devDependencies": {
+  },
+  "dependencies": {
+  }
+}

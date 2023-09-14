@@ -1,0 +1,18 @@
+module.exports = [
+  '',
+  'about-me',
+  'agenda',
+  'the-game',
+  'the-stack',
+  'caniuse-webgpu',
+  'loose-coupling',
+  'irenderer',
+  'canvas2d-for-mvp',
+  'adding-a-webgl-impl',
+  'adding-a-webgpu-impl',
+  'webgl-webgpu-similarities',
+  'webgl-webgpu-differences',
+  'learning-resources',
+  'thank-you',
+  'attributions',
+];

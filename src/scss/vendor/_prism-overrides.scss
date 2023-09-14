@@ -1,0 +1,18 @@
+pre[class^="language-"] {
+  border-radius: 1rem;
+  font-size: var(--step--1);
+
+
+  &::-webkit-scrollbar {
+    width: 0;
+  }
+  &::-webkit-scrollbar-track {
+    background: transparent;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    background: #444;
+    border-radius: 8px;
+  }
+
+}

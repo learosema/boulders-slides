@@ -1,0 +1,15 @@
+body {
+  color: var(--fg);
+  background: var(--bg);
+  margin: 0;
+
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+@supports (-webkit-touch-callout: none) {
+  body {
+    height: -webkit-fill-available;
+  }
+}
