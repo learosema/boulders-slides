@@ -7,5 +7,6 @@ variant: slide--centered
 - esbuild
 - lightningcss
 - TypeScript
-- VanillaJS Web Components
+- Vanilla Web Components
+- JSX, but no React
 - (some) jest for testing
