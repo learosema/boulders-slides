@@ -5,7 +5,7 @@ layout: slide
 - the Game
 - the Stack
 - Can I use WebGPU?
-- IRenderer interface
+- Use of interfaces
 - Loose Coupling
 - Use Canvas2D for a quick MVP
 - Adding a WebGL implementation

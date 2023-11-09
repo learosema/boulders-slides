@@ -1,6 +1,7 @@
 module.exports = [
   '',
   'about-me',
+  'slido',
   'agenda',
   'the-game',
   'challenges',
