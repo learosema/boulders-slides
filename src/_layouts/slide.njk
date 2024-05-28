@@ -5,13 +5,17 @@
   {% if background %}
     <img class="background {{ backgroundVariant }}" alt="{{ backgroundAlt }}"{% if not backgroundAlt %} role="none" aria-hidden="true"{% endif %} src="{{ background }}">
   {% endif %}
-  <article class="slide__content | flow">
+  <div class="slide__content | flow">
     <h1>{{ title }}</h1>
     {{ content | safe }}
-  </article>
+  </div>
+  
   {% if sideImage %}
-    <img class="slide__side-image" src="{{ sideImage }}" alt="{{ sideImageAlt }}" width="{{ sideImageWidth }}">
+    <div class="slide__side">
+      <img class="slide__side-image" src="{{ sideImage }}" alt="{{ sideImageAlt }}" width="100%">
+    </div>
   {% endif %}
+  
 </main>
 {% endblock %}
 
@@ -79,9 +83,9 @@
 </nav>
 {% endblock %}
 
-{% block aside %}
-<aside class="table-of-contents"id="tableOfContents" aria-labelledby="tableOfContentsHeadline" hidden tabindex="-1">
+{% block toc %}
+<nav class="table-of-contents" id="tableOfContents" aria-labelledby="tableOfContentsHeadline" hidden tabindex="-1">
   <h2 id="tableOfContentsHeadline">Table of contents</h2>
   {% include "partials/navigation.njk" %}
-</aside>
+</nav>
 {% endblock %}

@@ -4,8 +4,10 @@ module.exports = [
   'agenda',
   'retro',
   'the-game',
+  'why',
   'challenges',
   'the-stack',
+  'approaches',
   'caniuse-webgpu',
   'ega',
   'cga',
@@ -26,6 +28,7 @@ module.exports = [
   'wgsl-2',
   'webgpu-differences',
   'demo-time',
+  'frameworks',
   'learning-resources',
   'thank-you',
 ];

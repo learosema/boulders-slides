@@ -1,7 +1,6 @@
 ---
 title: Thank you!
 layout: slide
-variant: slide--centered
 ---
 
 - All credits for Boulder Dash go to [Peter Liepa](https://brainjam.ca) 💜

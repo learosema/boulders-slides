@@ -1,12 +1,11 @@
 ---
 title: About Me
 layout: slide
+sideImage: /images/leaaaa.jpg
 ---
 ## Lea Rosema (she/her)
 
-### Frontend Developer
-
-#### Novatec GmbH
+### Frontend Developer 
 
 - Hamburg based
 - in <span role="img" aria-label="love">💖</span> with the Web platform

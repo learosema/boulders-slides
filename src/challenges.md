@@ -1,7 +1,6 @@
 ---
 title: Challenges
 layout: slide
-variant: slide--centered
 ---
 Large variety of
 - Viewports

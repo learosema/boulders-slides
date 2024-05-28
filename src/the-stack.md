@@ -1,7 +1,6 @@
 ---
 title: The Stack
 layout: slide
-variant: slide--centered
 ---
 - Eleventy
 - esbuild

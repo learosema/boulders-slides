@@ -4,12 +4,11 @@ layout: slide
 ---
 - the Game
 - the Stack
-- Can I use WebGPU?
+- Approaches to WebGPU
 - Use of interfaces
 - Loose Coupling
-- Use Canvas2D for a quick MVP
-- Adding a WebGL implementation
-- Moving to WebGPU
+- Renderer implementation
 - DEMO time
+- Using Frameworks
 - Learning resources
 - Thank You!
