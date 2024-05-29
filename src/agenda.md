@@ -3,8 +3,8 @@ title: Agenda
 layout: slide
 ---
 - the Game
-- the Stack
 - Approaches to WebGPU
+- Architecture
 - Use of interfaces
 - Loose Coupling
 - Renderer implementation
