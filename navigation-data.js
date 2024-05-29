@@ -19,6 +19,7 @@ module.exports = [
   'geometry',
   'rasterization',
   'pixel-shader',
+  'shader-demo',
   'moving-to-webgpu',
   'webgpu-flow',
   'webgpu-flow-2',

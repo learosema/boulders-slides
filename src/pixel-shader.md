@@ -5,6 +5,4 @@ variant: slide--centered
 ---
 {% include "partials/shader.njk" %}
 
-The pixels are colorized via a shader
-
-`(x, y) => color`
+Colorize via a shader function `(x, y) => color`
